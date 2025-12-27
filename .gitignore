@@ -1,0 +1,113 @@
+# ============================================
+# Ambiente virtual de Python
+# ============================================
+python/venv/
+python/.venv/
+venv/
+.venv/
+env/
+.env
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ============================================
+# Archivos pesados - NO subir a GitHub
+# ============================================
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Audios grandes
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+# Excepto archivos pequeños de ejemplo (< 1MB)
+!samples/*.mp4
+!samples/*.wav
+
+# Archivos de salida
+output/
+**/output/
+*.json
+!**/config/*.json
+!**/package.json
+
+# Archivos temporales
+*.tmp
+*.temp
+*_temp.*
+*_clean.*
+*_cut.*
+
+# ============================================
+# Samples y datos grandes
+# ============================================
+samples/*.mp4
+samples/*.avi
+samples/*.mov
+samples/*.wav
+!samples/.gitkeep
+
+# ============================================
+# IDE y editores
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ============================================
+# Logs y cache
+# ============================================
+*.log
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Google Colab
+# ============================================
+drive/
+/content/
+sample_data/
+
+# ============================================
+# Archivos de configuración local
+# ============================================
+.env.local
+config.local.json
+*.local.*
+
+

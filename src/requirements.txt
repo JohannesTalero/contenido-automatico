@@ -1,0 +1,11 @@
+faster-whisper
+deepfilternet
+pydantic
+click
+librosa
+soundfile
+numpy
+torch
+torchaudio
+# Para Colab no es necesario especificar la URL de CUDA ya que viene preinstalado,
+# pero dejamos torch y torchaudio genéricos para que pip elija la mejor versión.
